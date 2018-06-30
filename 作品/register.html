@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>我的大学生活</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/register.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">  
+<script type="text/javascript" src="js/register.js"></script>
+<!-- <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+</head>
+<body>
+<div id="div1" >
+ <form role="form" onsubmit="return checkForm()" action="index.html">
+   <div class="form-group" id="div2">
+     <label for="username">用户名：</label>
+     <input type="text" class="form-control" id="username" placeholder="首字母开头的6位用户名" onblur="checkName()">
+     <span id="checkname"></span>
+   </div>
+   <div class="form-group" id="div3">
+     <label for="studentid">学号：</label>
+     <input type="text" class="form-control" id="studentid" placeholder="请输入0开头8位数字的学号" onblur="checkId()">
+     <span id="checkid"></span>
+   </div>
+   <div class="form-group" id="div4">
+     <label for="birthday">出生年月：</label>
+     <input type="text" class="form-control" id="birthday" placeholder="如：yyyy-mm-dd或yyyy-m-d" onblur="checkBirth()">
+     <span id="checkbirth"></span>
+   </div>   
+   <div class="form-group" id="div5">
+     <label for="email">邮箱：</label>
+     <input type="text" class="form-control" id="email" placeholder="如：123456@qq.com" onblur="checkEmail()">
+     <span id="checkemail"></span>
+   </div>
+   <div class="form-group" id="div6">
+     <label for="phonenumber">电话号码：</label>
+     <input type="text" class="form-control" id="phonenumber" placeholder="以1开头的11位数字号码" onblur="checkPhone()">
+     <span id="checkphone"></span>
+   </div>
+   <div id="div7"><input type="checkbox" name="" id="checkbox"><a href="#">我同意遵守会员协议</a></div><br/>
+   <input  type="submit" value="完成注册" class="btn btn-default" > 
+ </form> 	
+</div>
+</body>
+</html>

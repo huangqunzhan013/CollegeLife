@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-12-10 17:39:10
+ * @version $Id$
+ */
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-12-10 16:14:42
+ * @version $Id$
+ */
+*{
+	padding: 0;
+	margin: 0;
+}
+#div1{
+	width: 220px;
+	height: 450px;
+	margin: 0 auto;
+	margin-top: 200px;
+	border: 0px solid blue;
+}
+#div7 a{
+	font-size: 13px;
+}
+#div7 a:hover{
+	text-decoration: none;
+	color: red;
+}

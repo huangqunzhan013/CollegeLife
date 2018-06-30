@@ -1,0 +1,283 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-12-11 22:34:37
+ * @version $Id$
+ */
+*{
+	padding: 0;
+	margin: 0;
+}
+body{font-size:16px;line-height:1.7;}
+li{list-style:none;}
+
+
+#div1{
+	width: 824px;
+	height:220px;
+	background: url(../images/head.JPG) no-repeat;
+	margin:0 auto;
+	border: 0px solid red;
+	position: relative;
+	overflow: hidden;
+}
+#word1{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background: url(../images/word1.PNG);
+	left: 1500px;
+	z-index: 1;
+}
+#word2{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background: url(../images/word2.PNG);
+	left: 1600px;
+	z-index: 1;
+}
+#word3{
+	width: 100px;
+	height:100px;
+	position: absolute;
+	background: url(../images/word3.PNG);
+	left: 1700px;
+	z-index: 1;
+}
+#word4{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background: url(../images/word4.PNG);
+	left: 1800px;
+	z-index: 1;
+	
+}
+#word5{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background: url(../images/word5.PNG);
+	left: 320px;
+	top: 2000px;
+	z-index: 1;
+	
+}
+#word6{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background: url(../images/word6.PNG);
+	left: 420px;
+	top: 2000px;
+	z-index: 1;	
+}
+
+#img0{
+	width: 	220px;
+	height: 220px;
+	border: 0px solid red;
+	top: 90px;
+	left: 50px;
+	position: absolute;
+}
+
+
+#content{width:824px;margin:0 auto;}
+#content h1{color:#0088bb;}
+#content .item{padding:20px;margin-bottom:20px;border:1px dotted #0088bb;height:390px; width: 824px;}
+#content .item h2{font-size:16px;font-weight:bold;border-bottom:2px solid #0088bb;margin-bottom:10px;}
+#content .item li{margin-right:10px;}
+/*#content .item li a img{width:230px;height:230px;border:none;}*/
+/* menu */
+#menu{position:fixed;left:50%;margin-left:412px;top:284px;}
+#menu ul li a{
+    display:block;
+    margin:5px 0;
+    font-size:14px;
+    font-weight:bold;
+    color:#333;
+    width:80px;
+    height:50px;
+    line-height:50px;
+    text-decoration:none;
+    text-align:center;
+}
+#menu ul li a:hover,#menu ul li a.current{color:#fff;background:#0088bb;}
+
+
+#content #item1{
+	position: relative;
+}
+#content #item1 #ziliao{
+	border: 0px solid red;
+	width: 300px;
+	height: 320px;
+	position: absolute;
+	right: 120px;
+	top: 70px;
+}
+
+#main{
+	width: 620px;
+	height: 320px;
+	position: relative;
+	margin:0 auto;
+	border: 1px solid red;
+}
+#left{
+	width: 500px;
+	height: 300px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	border: solid 0px red;
+}
+#right{
+	width: 100px;
+	height: 300px;
+	position: absolute;
+	right:5px;
+	top: 10px;
+	border: 0px solid red;
+}
+#left img{
+	width: 500px;
+	height: 300px;
+}
+#right img{
+	width: 85px;
+	height: 57px;
+	margin-left: 10px;
+	margin-top: 2px;
+	border: 3px solid black;
+}
+#right ul li img:hover{	
+	margin-top: 2px;
+	border: 3px solid red;
+	width: 90px;
+	height: 65px;
+}
+
+
+#content #item3{
+	position: relative;
+}
+#content #item3 ul li img{
+	position: absolute;
+	left: 323px;
+	top: 90px;
+}
+#content #item3 ul li a{
+	width: 150px;
+}
+#content #item3 .a{
+	position: absolute;
+	width: 350px;
+	height: 310px; 
+	border: 0px solid red;
+	top: 80px;	
+	right: 200px;
+} 
+#content #item3 .a #a1{
+	width: 300px;
+	height: 300px;
+	border: 0px solid blue;
+	position: absolute;
+}
+.a img{
+	border: 2px solid black;
+}
+#content #item3 .a #a2{
+	width: 300px;
+	height: 300px;
+	border: 0px solid black;
+	position: absolute;
+}
+#content #item3 .a #a3{
+	width: 300px;
+	height: 300px;
+	border: 0px solid red;
+	position: absolute;
+}
+#content #item3 .a #a4{
+	width: 300px;
+	height: 300px;
+	border: 0px solid green;
+	position: absolute;
+}
+
+
+#item4{
+	position: relative;
+}
+#aihao1 img{
+	width: 60px;
+	height: 50px;
+	margin-left: 30px;
+}
+.alpha{
+	filter: alpha(opacity==40);
+	opacity: 0.4;
+}
+#jianjie{
+	width: 300px;
+	height: 280px;
+	position: absolute;
+	border: 0px solid red;
+	right: 20px;
+	top: 73px;
+}
+
+#item5{
+	position: relative;
+}
+#textarea{
+	width: 300px;
+	height: 300px;
+	border:0px solid red;
+}
+#liuyan{
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	border-left: 1px dashed black;
+	right: 10px;
+}
+
+
+
+
+
+#piao{
+	height: 300px; 
+	width: 150px;
+	left: 0px;
+	top: 100px;
+	background: url(../images/kefu.PNG);
+	position: absolute;
+}
+#piao a{
+	left: 6px;
+	color: gray;
+	position: absolute;
+	text-decoration: underline;
+}
+#piao a:hover{
+	color: red;
+}
+#piao input{
+	width: 150px;
+	position: absolute;
+	top: 240px;
+}
+
+
+
+
+
+
+
+

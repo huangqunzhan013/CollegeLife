@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-12-09 22:27:10
+ * @version $Id$
+ */
+ *{
+ 	margin:0;
+ 	padding: 0;
+ }
+ #div1{
+ 	width: 220px;
+ 	height: 150px;
+ 	margin:0 auto;
+ 	margin-top: 300px;
+ 	border: 0px solid red;
+ }
+ 
